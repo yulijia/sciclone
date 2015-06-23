@@ -1171,6 +1171,8 @@ sc.plot2d <- function(sco, outputFile=NULL, positionsToHighlight=NULL, highlight
 ##-------------------------------------------------------------------------------------
 ## plot three samples in 3d, optionally create a GIF
 ##
+
+if(FALSE){
 sc.plot3d <- function(sco, samplesToPlot, size=700, outputFile=NULL){
   suppressPackageStartupMessages(library(rgl))
   ##set the size of the window
@@ -1209,6 +1211,8 @@ sc.plot3d <- function(sco, samplesToPlot, size=700, outputFile=NULL){
   }
 }
 
+
+}
 
 ##-------------------------------------------------------------------------------------
 ## Get a list of colors to use for the clusters (after 20 they start repeating)
