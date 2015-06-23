@@ -1,3 +1,8 @@
+## Waring
+
+## I delete `sc.plot3d` function to aviod *libGLU.so.1: cannot open shared object file* problem
+
+
 An R package for inferring the subclonal architecture of tumors
 
 ## Installation instructions:
